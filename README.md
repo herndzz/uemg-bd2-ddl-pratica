@@ -72,3 +72,6 @@ Resultado esperado: O valor nulo deve ser aceito, mas o valor do campo telefone 
 
 #### - Faça uma consulta na VIEW criada, exemplo: `SELECT * FROM nome_da_view`
 Resultado esperado: O SGBD deve retornar os dados do aluno e matrícula contendo os campos (id do aluno, nome do aluno, curso, data da matrícula)
+
+#### - Conclua a atividade criando um novo arquivo schema
+Resultado esperado: crie um novo arquivo `schema_atualizado.sql` contendo a nova estrutura das tabelas do banco de dados modificado.
