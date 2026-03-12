@@ -11,3 +11,5 @@ DROP TABLE alunos;
 INSERT INTO alunos (id, nome, telefone) VALUES (4, 'Hernandes', NULL), (5, 'Jorge', '+55brasil+ddd32999219921');
 
 SELECT * FROM consulta_admistrativa;
+
+docker exec -i mysql_bd2 mysql -u dev -p'minhasenha' --database universidade < schema_atualizado.sql
